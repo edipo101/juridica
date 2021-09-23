@@ -1,0 +1,69 @@
+.table.table-f12{
+  font-size: 12px;
+}
+
+.table>tbody>tr>td,{
+  padding: 2px 5px;
+}
+
+.table>thead>tr{
+  /*color: #000;*/
+  /*background-color: #d2d6de !important;*/
+}
+
+.table>thead>tr>th {
+  vertical-align: middle;
+  padding: 5px;
+}
+
+th.right, td.right{
+  text-align: right;
+}
+
+th.center, td.center{
+  text-align: center;
+}
+
+.float-left5{
+  float: left;
+  margin-right: 5px;
+}
+
+.highlight{
+	background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.small-box p {
+  font-size: 14px;
+}
+
+.small-box h3 {
+  font-size: 30px;
+}
+
+.small-box .icon {
+  top: 0px;
+  font-size: 70px;
+}
+
+.skin-purple .sidebar-menu>li.header {
+    color: burlywood;
+}
+
+.modal-body{
+  font-size: 12px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #f8f8ff;
+    opacity: 1;
+}
+
+.lead{
+  border-bottom: 1px solid #eee;
+}
+
+.required{
+  color: red;
+}

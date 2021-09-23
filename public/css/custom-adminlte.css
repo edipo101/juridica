@@ -1,0 +1,128 @@
+.content-wrapper{
+  background: white;
+}
+
+.content-header{
+  padding: 15px 40px 0 40px;
+}
+
+.content{
+  padding: 15px 40px;
+}
+
+.description{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.toolbar{
+  margin: 0 0 15px -15px;
+}
+
+/*--------------------------------------------------*/
+.page-header{
+	font-size: 20px;
+  /*font-weight: 600;*/
+  /*margin-bottom: 5px;*/
+  border-color: #d2d6de;
+}
+
+/*--------------------------------------------------*/
+.box{
+  border-top: none;
+  box-shadow: none;
+}
+
+.box-body{
+  padding: 10px 0px;
+}
+
+.box-footer{
+  border-top: none;
+  padding: 10px 0px;
+}
+
+/*--------------------------------------------------*/
+.req{
+  color: red;
+}
+
+.help-block{
+  color: red;
+  font-style: italic;
+}
+
+.unassigned{
+  font-style: italic; 
+}
+
+/*--------------------------------------------------*/
+.alert{
+  margin-bottom: 15px;
+}
+
+.table-borderless>tbody>tr>td{
+  border-top: none;
+}
+
+.td-label{
+  font-weight: bold;
+  width: 35%;
+}
+
+.radio+.radio{
+  margin-top: 10px;
+}
+/* Modal message */
+.modal-header2{
+  border-bottom: 1px solid #f4f4f4;
+  padding: 7px 15px;
+}
+
+.modal-footer2{
+    padding: 12px 15px;
+    text-align: right;
+    border-top: 1px solid #f4f4f4;
+}
+
+.modal-dialog2{
+  margin: 100px auto;
+  position: relative;
+}
+
+.btn-group>.dropdown-menu{
+  left: auto;
+  right: 0;
+}
+
+.input-group[class*=col-] {
+  padding-left: 15px;
+}
+
+dt, dd{
+  padding: 2px;
+}
+
+dt{
+  text-align: left !important;
+}
+
+.page-header2{
+  margin: 10px 0 15px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.hr2{
+  margin: 10px;
+  border-color: #eee
+}
+
+.option_radio{
+  width: 80px;
+}
+
+.radio{
+  position: initial;
+}
