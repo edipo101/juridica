@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\denunciations_module;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Denunciations_module\Denunciation;
+use App\Denunciation;
+use DataTables;
 
 class DenunciationController extends Controller
 {
@@ -13,11 +14,11 @@ class DenunciationController extends Controller
     }
 
     public function index(){
-    	$denunciations = Denunciation::get();
-    	return $denunciations;
+    	return view('denunciations_module.index');
     }
 
-    public function ajax_load(){
+    public function ajax_get(){
     	$denunciations = Denunciation::get();
+        return DataTables::of($denunciations)->toJson();
     }
 }

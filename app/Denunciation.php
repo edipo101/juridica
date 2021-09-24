@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Denunciations_module;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Denunciation extends Model
 {
-    //
+    protected $guarded = ['id'];
 }
